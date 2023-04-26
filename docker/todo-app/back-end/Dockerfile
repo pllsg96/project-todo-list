@@ -4,7 +4,7 @@ WORKDIR /app
 
 ADD node_modules.tar.gz ./
 
-COPY ./src ./src
+COPY ./docker/todo-app/back-end/Dockerfile ./src
 
 EXPOSE 3001
 
